@@ -1,0 +1,294 @@
+# text = Mosetsana o kwaletse tsala ya gagwe lekwalo.
+# text_en = The girl wrote a letter to her friend.
+# sent_id = 1
+1	Mosetsana	_	NOUN	N01	NounClass=Bantu1	3	nsubj	_	end_char=9|start_char=0
+2	o	_	PRON	SC01	NounClass=Bantu1	3	expl	_	end_char=11|start_char=10
+3	kwaletse	_	VERB	V	_	0	root	_	end_char=20|start_char=12
+4	tsala	_	NOUN	N09	NounClass=Bantu9	3	iobj	_	end_char=26|start_char=21
+5	ya	_	PART	POSSC09	NounClass=Bantu9	6	case	_	end_char=29|start_char=27
+6	gagwe	_	PRON	PROPOSSPERS	_	4	nmod	_	end_char=35|start_char=30
+7	lekwalo	_	NOUN	N05	NounClass=Bantu5	3	obj	_	end_char=43|SpaceAfter=No|start_char=36
+8	.	_	PUNCT	PUNC	_	3	punct	_	end_char=45|start_char=44
+
+# text = Ke akanya gore pula e a na.
+# text_en = I think that it is raining.
+# sent_id = 2
+1	Ke	_	PRON	SCPERS	_	2	nsubj	_	end_char=49|start_char=47
+2	akanya	_	VERB	V	_	0	root	_	end_char=56|start_char=50
+3	gore	_	SCONJ	CONJ	_	7	mark	_	end_char=61|start_char=57
+4	pula	_	NOUN	N09	NounClass=Bantu9	7	nsubj	_	end_char=66|start_char=62
+5	e	_	PRON	SC09	NounClass=Bantu9	7	expl	_	end_char=68|start_char=67
+6	a	_	VERB	TENSE	_	7	compound	_	end_char=70|start_char=69
+7	na	_	VERB	V	_	2	ccomp	_	end_char=73|SpaceAfter=No|start_char=71
+8	.	_	PUNCT	PUNC	_	2	punct	_	end_char=75|start_char=74
+
+# text = O ne a leka go tlogela go goga le go nwa.
+# text_en = He tried to stop smoking and drinking.
+# sent_id = 3
+1	O	_	PRON	SC01	NounClass=Bantu1	4	expl	_	end_char=78|start_char=77
+2	ne	_	AUX	VAUX	_	4	aux	_	end_char=81|start_char=79
+3	a	_	PRON	SC01	NounClass=Bantu1	4	nsubj	_	end_char=83|start_char=82
+4	leka	_	VERB	V	_	0	root	_	end_char=88|start_char=84
+5	go	_	PART	SCINDEF	_	6	mark	_	end_char=91|start_char=89
+6	tlogela	_	VERB	V	_	4	xcomp	_	end_char=99|start_char=92
+7	go	_	PRON	SC15	NounClass=Bantu15	8	compound	_	end_char=102|start_char=100
+8	goga	_	VERB	V	_	6	xcomp	_	end_char=107|start_char=103
+9	le	_	CCONJ	CONJ	_	11	cc	_	end_char=110|start_char=108
+10	go	_	PRON	SC15	NounClass=Bantu15	11	compound	_	end_char=113|start_char=111
+11	nwa	_	VERB	V	_	8	conj	_	end_char=117|SpaceAfter=No|start_char=114
+12	.	_	PUNCT	PUNC	_	4	punct	_	end_char=119|start_char=118
+
+# text = A o batla go tsamaya?
+# text_en = Do you want to go?
+# sent_id = 4
+1	A	_	PART	PART	_	3	discourse	_	end_char=122|start_char=121
+2	o	_	PRON	SC01	NounClass=Bantu1	3	nsubj	_	end_char=124|start_char=123
+3	batla	_	VERB	V	_	0	root	_	end_char=130|start_char=125
+4	go	_	PART	SCINDEF	_	5	mark	_	end_char=133|start_char=131
+5	tsamaya	_	VERB	V	_	3	xcomp	_	end_char=141|SpaceAfter=No|start_char=134
+6	?	_	PUNCT	PUNC	_	3	punct	_	end_char=143|start_char=142
+
+# text = Sam, bula letlhabaphefo!
+# text_en = Sam, open the window!
+# sent_id = 5
+1	Sam	_	PROPN	NPP	_	3	vocative	_	end_char=148|SpaceAfter=No|start_char=145
+2	,	_	PUNCT	PUNC	_	3	punct	_	end_char=150|start_char=149
+3	bula	_	VERB	V	_	0	root	_	end_char=155|start_char=151
+4	letlhabaphefo	_	NOUN	N05	NounClass=Bantu5	3	obj	_	end_char=169|SpaceAfter=No|start_char=156
+5	!	_	PUNCT	PUNC	_	3	punct	_	end_char=171|start_char=170
+
+# text = O ne a dira gore monna wa gagwe a tlhatswe koloi.
+# text_en = She made her husband wash the car.
+# sent_id = 6
+1	O	_	PRON	SC01	NounClass=Bantu1	4	expl	_	end_char=174|start_char=173
+2	ne	_	AUX	VAUX	_	4	aux	_	end_char=177|start_char=175
+3	a	_	PRON	SC01	NounClass=Bantu1	4	nsubj	_	end_char=179|start_char=178
+4	dira	_	VERB	V	_	0	root	_	end_char=184|start_char=180
+5	gore	_	SCONJ	CONJ	_	10	mark	_	end_char=189|start_char=185
+6	monna	_	NOUN	N01	NounClass=Bantu1	10	nsubj	_	end_char=195|start_char=190
+7	wa	_	PART	POSSC01	NounClass=Bantu1	8	case	_	end_char=198|start_char=196
+8	gagwe	_	PRON	PROPOSSPERS	_	6	nmod	_	end_char=204|start_char=199
+9	a	_	PRON	SC01	NounClass=Bantu1	10	expl	_	end_char=206|start_char=205
+10	tlhatswe	_	VERB	V	_	4	ccomp	_	end_char=215|start_char=207
+11	koloi	_	NOUN	N09	NounClass=Bantu9	10	obj	_	end_char=221|SpaceAfter=No|start_char=216
+12	.	_	PUNCT	PUNC	_	4	punct	_	end_char=223|start_char=222
+
+# text = Moagisani wa ga Peter o ne a penta legora ka bohibidu.
+# text_en = Peter’s neighbor painted the fence red.
+# sent_id = 7
+1	Moagisani	_	NOUN	N01	NounClass=Bantu1	8	nsubj	_	end_char=234|start_char=225
+2	wa	_	PART	POSSC01	NounClass=Bantu1	4	case	_	end_char=237|start_char=235
+3	ga	_	PART	POSSC17	NounClass=Bantu17	4	case	_	end_char=240|start_char=238
+4	Peter	_	PROPN	NPP	_	1	nmod	_	end_char=246|start_char=241
+5	o	_	PRON	SC01	NounClass=Bantu1	8	expl	_	end_char=248|start_char=247
+6	ne	_	AUX	VAUX	_	8	aux	_	end_char=251|start_char=249
+7	a	_	PRON	SC01	NounClass=Bantu1	8	expl	_	end_char=253|start_char=252
+8	penta	_	VERB	V	_	0	root	_	end_char=259|start_char=254
+9	legora	_	NOUN	N05	NounClass=Bantu5	8	obj	_	end_char=266|start_char=260
+10	ka	_	PART	PART	_	11	case	_	end_char=269|start_char=267
+11	bohibidu	_	NOUN	N14	NounClass=Bantu14	8	obl	_	end_char=278|SpaceAfter=No|start_char=270
+12	.	_	PUNCT	PUNC	_	8	punct	_	end_char=280|start_char=279
+
+# text = Rre wa me o botoka go na le wa gago.
+# text_en = My dad is cooler than yours.
+# sent_id = 8
+1	Rre	_	NOUN	N01a	NounClass=Bantu1	5	nsubj	_	end_char=285|start_char=282
+2	wa	_	PART	POSSC01	NounClass=Bantu1	3	case	_	end_char=288|start_char=286
+3	me	_	PRON	PROPOSSPERS	_	1	nmod	_	end_char=291|start_char=289
+4	o	_	AUX	VCOP	_	5	cop	_	end_char=293|start_char=292
+5	botoka	_	ADJ	ADJ14	NounClass=Bantu14	0	root	_	end_char=300|start_char=294
+6	go	_	PART	SCINDEF	_	10	cc	_	end_char=303|start_char=301
+7	na	_	VERB	VCOP	_	6	fixed	_	end_char=306|start_char=304
+8	le	_	PART	PART	_	6	fixed	_	end_char=309|start_char=307
+9	wa	_	PART	POSSC01	NounClass=Bantu1	10	case	_	end_char=312|start_char=310
+10	gago	_	PRON	PROPOSSPERS	_	5	nmod	_	end_char=317|SpaceAfter=No|start_char=313
+11	.	_	PUNCT	PUNC	_	5	punct	_	end_char=319|start_char=318
+
+# text = Mary o fentse boronse, Peter selefera mme Jane gauta.
+# text_en = Mary won bronze, Peter silver, and Jane gold.
+# sent_id = 9
+1	Mary	_	PROPN	NPP	_	3	nsubj	_	end_char=325|start_char=321
+2	o	_	PRON	SC01	NounClass=Bantu1	3	expl	_	end_char=327|start_char=326
+3	fentse	_	VERB	V	_	0	root	_	end_char=334|start_char=328
+4	boronse	_	NOUN	N9	NounClass=Bantu9	3	obj	_	end_char=342|SpaceAfter=No|start_char=335
+5	,	_	PUNCT	PUNC	_	6	punct	_	end_char=344|start_char=343
+6	Peter	_	PROPN	NPP	_	3	conj	_	end_char=350|start_char=345
+7	selefera	_	NOUN	N07	NounClass=Bantu7	6	orphan	_	end_char=359|start_char=351
+8	mme	_	CCONJ	CONJ	_	9	cc	_	end_char=363|start_char=360
+9	Jane	_	PROPN	NPP	_	3	conj	_	end_char=368|start_char=364
+10	gauta	_	NOUN	N09	NounClass=Bantu9	9	orphan	_	end_char=374|SpaceAfter=No|start_char=369
+11	.	_	PUNCT	PUNC	_	3	punct	_	end_char=376|start_char=375
+
+# text = A Iguazu ke naga e kgolo kgotsa ke e nnye?
+# text_en = Is Iguazu a big or a small country?
+# sent_id = 10
+1	A	_	PART	PART	_	4	discourse	_	end_char=379|start_char=378
+2	Iguazu	_	PROPN	NPP	_	4	nsubj	_	end_char=386|start_char=380
+3	ke	_	AUX	VCOP	_	4	cop	_	end_char=389|start_char=387
+4	naga	_	NOUN	N09	NounClass=Bantu9	0	root	_	end_char=394|start_char=390
+5	e	_	PART	PART	NounClass=Bantu9	6	mark	_	end_char=396|start_char=395
+6	kgolo	_	ADJ	ADJ09	NounClass=Bantu9	4	amod	_	end_char=402|start_char=397
+7	kgotsa	_	CCONJ	CONJ	_	10	cc	_	end_char=409|start_char=403
+8	ke	_	AUX	VCOP	_	10	cop	_	end_char=412|start_char=410
+9	e	_	PART	PART	NounClass=Bantu9	10	mark	_	end_char=414|start_char=413
+10	nnye	_	ADJ	ADJ09	NounClass=Bantu9	6	conj	_	end_char=419|SpaceAfter=No|start_char=415
+11	?	_	PUNCT	PUNC	_	4	punct	_	end_char=421|start_char=420
+
+# text = Peter Smith le fa e le Mary Brown ga ba a kgona go tlhophiwa.
+# text_en = Neither Peter Smith nor Mary Brown could be selected.
+# sent_id = 11
+1	Peter	_	PROPN	NPP	_	12	nsubj	_	end_char=428|start_char=423
+2	Smith	_	PROPN	NPP	_	1	flat	_	end_char=434|start_char=429
+3	le	_	PART	PART	_	7	cc	_	end_char=437|start_char=435
+4	fa	_	CCONJ	CONJ	_	3	fixed	_	end_char=440|start_char=438
+5	e	_	PRON	SCNEUT	_	3	fixed	_	end_char=442|start_char=441
+6	le	_	VERB	VCOP	_	3	fixed	_	end_char=445|start_char=443
+7	Mary	_	PROPN	NPP	_	1	conj	_	end_char=450|start_char=446
+8	Brown	_	PROPN	NPP	_	7	flat	_	end_char=456|start_char=451
+9	ga	_	ADV	MNEG	Polarity=Neg	12	advmod	_	end_char=459|start_char=457
+10	ba	_	PRON	SC02	NounClass=Bantu2	12	expl	_	end_char=462|start_char=460
+11	a	_	ADV	MNEG	Polarity=Neg	12	advmod	_	end_char=464|start_char=463
+12	kgona	_	VERB	V	_	0	root	_	end_char=470|start_char=465
+13	go	_	PART	SCINDEF	_	14	mark	_	end_char=473|start_char=471
+14	tlhophiwa	_	VERB	V	_	12	xcomp	_	end_char=483|SpaceAfter=No|start_char=474
+15	.	_	PUNCT	PUNC	_	12	punct	_	end_char=485|start_char=484
+
+# text = Ga ba na kakanyo epe gore e kwadilwe ke mang.
+# text_en = They have no idea who wrote it.
+# sent_id = 12
+1	Ga	_	ADV	MNEG	Polarity=Neg	3	advmod	_	end_char=489|start_char=487
+2	ba	_	PRON	SC02	NounClass=Bantu2	3	nsubj	_	end_char=492|start_char=490
+3	na	_	VERB	VCOP	_	0	root	_	end_char=495|start_char=493
+4	kakanyo	_	NOUN	N09	NounClass=Bantu9	3	obj	_	end_char=503|start_char=496
+5	epe	_	PRON	PROQUANT09	NounClass=Bantu9	4	nmod	_	end_char=507|start_char=504
+6	gore	_	SCONJ	CONJ	_	8	mark	_	end_char=512|start_char=508
+7	e	_	PRON	SC09	NounClass=Bantu9	8	nsubj:pass	_	end_char=514|start_char=513
+8	kwadilwe	_	VERB	V	_	3	ccomp	_	end_char=523|start_char=515
+9	ke	_	PART	PART	_	10	case	_	end_char=526|start_char=524
+10	mang	_	ADV	INTER	_	8	obl:agent	_	end_char=531|SpaceAfter=No|start_char=527
+11	.	_	PUNCT	PUNC	_	3	punct	_	end_char=533|start_char=532
+
+# text = O lebile eng?
+# text_en = What are you looking at?
+# sent_id = 13
+1	O	_	PRON	SC01	NounClass=Bantu1	2	nsubj	_	end_char=536|start_char=535
+2	lebile	_	VERB	V	_	0	root	_	end_char=543|start_char=537
+3	eng	_	ADV	INTER	_	2	advmod	_	end_char=547|SpaceAfter=No|start_char=544
+4	?	_	PUNCT	PUNC	_	2	punct	_	end_char=549|start_char=548
+
+# text = O akanya gore o ka tla leng?
+# text_en = When do you think you can come?
+# sent_id = 14
+1	O	_	PRON	SC01	NounClass=Bantu1	2	nsubj	_	end_char=552|start_char=551
+2	akanya	_	VERB	V	_	0	root	_	end_char=559|start_char=553
+3	gore	_	SCONJ	CONJ	_	6	mark	_	end_char=564|start_char=560
+4	o	_	PRON	SC01	NounClass=Bantu1	6	nsubj	_	end_char=566|start_char=565
+5	ka	_	PART	PART	_	6	compound	_	end_char=569|start_char=567
+6	tla	_	VERB	TENSE	_	2	ccomp	_	end_char=573|start_char=570
+7	leng	_	ADV	INTER	_	6	advmod	_	end_char=578|SpaceAfter=No|start_char=574
+8	?	_	PUNCT	PUNC	_	2	punct	_	end_char=580|start_char=579
+
+# text = O rekile koloi mme morwarraagwe baesekele fela.
+# text_en = He bought a car but his brother just a bike.
+# sent_id = 15
+1	O	_	PRON	SC01	NounClass=Bantu1	2	nsubj	_	end_char=583|start_char=582
+2	rekile	_	VERB	V	_	0	root	_	end_char=590|start_char=584
+3	koloi	_	NOUN	N09	NounClass=Bantu9	2	obj	_	end_char=596|start_char=591
+4	mme	_	CCONJ	CONJ	_	6	cc	_	end_char=600|start_char=597
+5	morwarraagwe	_	NOUN	N01	NounClass=Bantu1	6	orphan	_	end_char=613|start_char=601
+6	baesekele	_	NOUN	N09	NounClass=Bantu9	3	conj	_	end_char=623|start_char=614
+7	fela	_	ADV	ADV	_	2	advmod	_	end_char=628|SpaceAfter=No|start_char=624
+8	.	_	PUNCT	PUNC	_	2	punct	_	end_char=630|start_char=629
+
+# text = Peter le Mary ba ne ba tlamparelana mme ba tswa mo phaposing.
+# text_en = Peter and Mary hugged each other and then left the room.
+# sent_id = 16
+1	Peter	_	PROPN	NPP	_	7	nsubj	_	end_char=637|start_char=632
+2	le	_	PART	PART	_	3	cc	_	end_char=640|start_char=638
+3	Mary	_	PROPN	NPP	_	1	conj	_	end_char=645|start_char=641
+4	ba	_	PRON	SC02	NounClass=Bantu2	7	expl	_	end_char=648|start_char=646
+5	ne	_	AUX	VAUX	_	7	aux	_	end_char=651|start_char=649
+6	ba	_	PRON	SC02	NounClass=Bantu2	7	expl	_	end_char=654|start_char=652
+7	tlamparelana	_	VERB	V	_	0	root	_	end_char=667|start_char=655
+8	mme	_	CCONJ	CONJ	_	10	cc	_	end_char=671|start_char=668
+9	ba	_	PRON	SC02	NounClass=Bantu2	10	nsubj	_	end_char=674|start_char=672
+10	tswa	_	VERB	V	_	7	conj	_	end_char=679|start_char=675
+11	mo	_	PART	PART	_	12	case	_	end_char=682|start_char=680
+12	phaposing	_	NOUN	N09	NounClass=Bantu9	10	obl:lmod	_	end_char=692|SpaceAfter=No|start_char=683
+13	.	_	PUNCT	PUNC	_	7	punct	_	end_char=694|start_char=693
+
+# text = O ne a ka be a itirile moriri mme ka lebaka lengwe o ne a se ka ke ka letsatsi leo.
+# text_en = She should have been doing her hair but for some reason she wouldn't that day.
+# sent_id = 17
+1	O	_	PRON	SC01	NounClass=Bantu1	7	expl	_	end_char=697|start_char=696
+2	ne	_	AUX	VAUX	_	7	aux	_	end_char=700|start_char=698
+3	a	_	PRON	SC01	NounClass=Bantu1	7	expl	_	end_char=702|start_char=701
+4	ka	_	PART	PART	_	7	compound	_	end_char=705|start_char=703
+5	be	_	AUX	VAUX	_	7	aux	_	end_char=708|start_char=706
+6	a	_	PRON	SC01	NounClass=Bantu1	7	nsubj	_	end_char=710|start_char=709
+7	itirile	_	VERB	V	_	0	root	_	end_char=718|start_char=711
+8	moriri	_	NOUN	N03	NounClass=Bantu3	7	obj	_	end_char=725|start_char=719
+9	mme	_	CCONJ	CONJ	_	18	cc	_	end_char=729|start_char=726
+10	ka	_	PART	PART	_	11	case	_	end_char=732|start_char=730
+11	lebaka	_	NOUN	N05	NounClass=Bantu5	18	obl	_	end_char=739|start_char=733
+12	lengwe	_	ADJ	ADJ05	NounClass=Bantu5	11	nmod	_	end_char=746|start_char=740
+13	o	_	PRON	SC01	NounClass=Bantu1	18	expl	_	end_char=748|start_char=747
+14	ne	_	AUX	VAUX	_	18	aux	_	end_char=751|start_char=749
+15	a	_	PRON	SC01	NounClass=Bantu1	18	nsubj	_	end_char=753|start_char=752
+16	se	_	ADV	MNEG	Polarity=Neg	18	advmod	_	end_char=756|start_char=754
+17	ka	_	PART	PART	_	18	compound	_	end_char=759|start_char=757
+18	ke	_	AUX	VAUX	_	7	conj	_	end_char=762|start_char=760
+19	ka	_	PART	PART	_	20	case	_	end_char=765|start_char=763
+20	letsatsi	_	NOUN	N05	NounClass=Bantu5	18	obl:tmod	_	end_char=774|start_char=766
+21	leo	_	PRON	DEM05	NounClass=Bantu5	20	nmod	_	end_char=778|SpaceAfter=No|start_char=775
+22	.	_	PUNCT	PUNC	_	7	punct	_	end_char=780|start_char=779
+
+# text = Ga ke a kgona go tshwarelela ka gore o ne a taboga ka lebelo thata.
+# text_en = I wasn't able to keep up, because he ran too fast.
+# sent_id = 18
+1	Ga	_	ADV	MNEG	Polarity=Neg	4	advmod	_	end_char=784|start_char=782
+2	ke	_	PRON	SCPERS	_	4	nsubj	_	end_char=787|start_char=785
+3	a	_	ADV	MNEG	Polarity=Neg	4	advmod	_	end_char=789|start_char=788
+4	kgona	_	VERB	V	_	0	root	_	end_char=795|start_char=790
+5	go	_	PART	SCINDEF	_	6	mark	_	end_char=798|start_char=796
+6	tshwarelela	_	VERB	V	_	4	xcomp	_	end_char=810|start_char=799
+7	ka	_	PART	PART	_	12	mark	_	end_char=813|start_char=811
+8	gore	_	SCONJ	CONJ	_	7	fixed	_	end_char=818|start_char=814
+9	o	_	PRON	SC01	NounClass=Bantu1	12	expl	_	end_char=820|start_char=819
+10	ne	_	AUX	VAUX	_	12	aux	_	end_char=823|start_char=821
+11	a	_	PRON	SC01	NounClass=Bantu1	12	nsubj	_	end_char=825|start_char=824
+12	taboga	_	VERB	V	_	6	ccomp	_	end_char=832|start_char=826
+13	ka	_	PART	PART	_	14	case	_	end_char=835|start_char=833
+14	lebelo	_	NOUN	N05	NounClass=Bantu5	12	advcl	_	end_char=842|start_char=836
+15	thata	_	ADV	ADV	_	14	advmod	_	end_char=848|SpaceAfter=No|start_char=843
+16	.	_	PUNCT	PUNC	_	4	punct	_	end_char=850|start_char=849
+
+# text = Lekwalo lê le tswa kwa go Peter mme le gorositswe maabane.
+# text_en = This letter is from Peter and it was delivered yesterday.
+# sent_id = 19
+1	Lekwalo	_	NOUN	N05	NounClass=Bantu5	4	nsubj	_	end_char=859|start_char=852
+2	lê	_	PRON	DEM05	NounClass=Bantu5	1	nmod	_	end_char=862|start_char=860
+3	le	_	PRON	SC05	NounClass=Bantu5	4	expl	_	end_char=865|start_char=863
+4	tswa	_	VERB	V	_	0	root	_	end_char=870|start_char=866
+5	kwa	_	PART	PART	_	7	case	_	end_char=874|start_char=871
+6	go	_	PART	PART	_	7	case	_	end_char=877|start_char=875
+7	Peter	_	PROPN	NPP	_	4	obl	_	end_char=883|start_char=878
+8	mme	_	CCONJ	CONJ	_	10	cc	_	end_char=887|start_char=884
+9	le	_	PRON	SC05	NounClass=Bantu5	10	nsubj:pass	_	end_char=890|start_char=888
+10	gorositswe	_	VERB	V	_	4	conj	_	end_char=901|start_char=891
+11	maabane	_	ADV	ADV	_	10	obl:tmod	_	end_char=909|SpaceAfter=No|start_char=902
+12	.	_	PUNCT	PUNC	_	4	punct	_	end_char=911|start_char=910
+
+# text = O goletse kwa Paris, mošate wa Fora.
+# text_en = She grew up in Paris, the capital of France.
+# sent_id = 20
+1	O	_	PRON	SC01	NounClass=Bantu1	2	nsubj	_	end_char=914|start_char=913
+2	goletse	_	VERB	V	_	0	root	_	end_char=922|start_char=915
+3	kwa	_	PART	PART	_	4	case	_	end_char=926|start_char=923
+4	Paris	_	PROPN	NPP	_	2	obl	_	end_char=932|SpaceAfter=No|start_char=927
+5	,	_	PUNCT	PUNC	_	6	punct	_	end_char=934|start_char=933
+6	mošate	_	NOUN	N03	NounClass=Bantu3	4	appos	_	end_char=941|start_char=935
+7	wa	_	PART	POSSC03	NounClass=Bantu3	8	case	_	end_char=944|start_char=942
+8	Fora	_	PROPN	NPP	_	6	nmod	_	end_char=949|SpaceAfter=No|start_char=945
+9	.	_	PUNCT	PUNC	_	2	punct	_	end_char=951|start_char=950
+
