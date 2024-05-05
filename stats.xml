@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>20</sentences><tokens>214</tokens><words>214</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>20</sentences><tokens>214</tokens><words>214</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="100" /><!-- ., o, a, go, ka, le, ne, ke, Peter, ba, e, gore, mme, wa, ? -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="11">
+    <tag name="ADJ">4</tag><!-- _ -->
+    <tag name="ADV">12</tag><!-- _ -->
+    <tag name="AUX">12</tag><!-- _ -->
+    <tag name="CCONJ">8</tag><!-- _ -->
+    <tag name="NOUN">26</tag><!-- _ -->
+    <tag name="PART">32</tag><!-- _ -->
+    <tag name="PRON">43</tag><!-- _ -->
+    <tag name="PROPN">15</tag><!-- _ -->
+    <tag name="PUNCT">23</tag><!-- _ -->
+    <tag name="SCONJ">5</tag><!-- _ -->
+    <tag name="VERB">34</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="10">
+    <feat name="NounClass" value="Bantu1" upos="NOUN,PART,PRON">31</feat><!-- o, a, wa, Moagisani, Mosetsana, Rre, monna, morwarraagwe -->
+    <feat name="NounClass" value="Bantu14" upos="ADJ,NOUN">2</feat><!-- bohibidu, botoka -->
+    <feat name="NounClass" value="Bantu15" upos="PRON">2</feat><!-- go -->
+    <feat name="NounClass" value="Bantu17" upos="PART">1</feat><!-- ga -->
+    <feat name="NounClass" value="Bantu2" upos="PRON">5</feat><!-- ba -->
+    <feat name="NounClass" value="Bantu3" upos="NOUN,PART">3</feat><!-- moriri, mošate, wa -->
+    <feat name="NounClass" value="Bantu5" upos="ADJ,NOUN,PRON">12</feat><!-- le, lekwalo, lebaka, lebelo, legora, lengwe, leo, letlhabaphefo, letsatsi, lê -->
+    <feat name="NounClass" value="Bantu7" upos="NOUN">1</feat><!-- selefera -->
+    <feat name="NounClass" value="Bantu9" upos="ADJ,NOUN,PART,PRON">18</feat><!-- e, koloi, baesekele, boronse, epe, gauta, kakanyo, kgolo, naga, nnye -->
+    <feat name="Polarity" value="Neg" upos="ADV">6</feat><!-- ga, a, se -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="30">
+    <dep name="advcl">1</dep>
+    <dep name="advmod">10</dep>
+    <dep name="amod">1</dep>
+    <dep name="appos">1</dep>
+    <dep name="aux">8</dep>
+    <dep name="case">16</dep>
+    <dep name="cc">10</dep>
+    <dep name="ccomp">5</dep>
+    <dep name="compound">6</dep>
+    <dep name="conj">10</dep>
+    <dep name="cop">3</dep>
+    <dep name="discourse">2</dep>
+    <dep name="expl">16</dep>
+    <dep name="fixed">6</dep>
+    <dep name="flat">2</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">11</dep>
+    <dep name="nmod">10</dep>
+    <dep name="nsubj">25</dep>
+    <dep name="nsubj:pass">2</dep>
+    <dep name="obj">8</dep>
+    <dep name="obl">4</dep>
+    <dep name="obl:agent">1</dep>
+    <dep name="obl:lmod">1</dep>
+    <dep name="obl:tmod">2</dep>
+    <dep name="orphan">3</dep>
+    <dep name="punct">23</dep>
+    <dep name="root">20</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">5</dep>
+  </deps>
+</treebank>
