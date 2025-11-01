@@ -6,8 +6,8 @@ UD Tswana-Popapolelo is a translation of the 20 Cairo Cicling sentences (https:/
 
 There are 20 translated sentences with a total of 234 tokens.
 
-The entire treebank is labeled as test set due to its size. 
-If it is used for training in future research, the users should employ ten-fold 
+The entire treebank is labeled as test set due to its size.
+If it is used for training in future research, the users should employ ten-fold
 cross-validation.
 
 # Acknowledgments
@@ -45,7 +45,7 @@ Tanja Gaustad (Tanja.Gaustad@nwu.ac.za)
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Parallel: no
+Parallel: cairo
 Genre: grammar-examples
 Lemmas: not available
 UPOS: converted with corrections
