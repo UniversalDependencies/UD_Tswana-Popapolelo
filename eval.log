@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Tswana-Popapolelo:
-commit 3b08654a6e9df52dada77808d6368836f0bb41c5
+commit a10fbdbba384b6fa372a27aaf91de5a563dcb089
+Merge: c06d754 58be4a1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:44:34 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'tn_popapolelo'
+Language code (from CoNLL-U file name) = 'tn'
+Found the following data files: tn_popapolelo-ud-test.conllu
 Size: counted 214 of 214 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,26 +23,29 @@ Features: 81 out of 214 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL         77
-Udapi: found 77 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 214 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tn --max-err=10 UD_Tswana-Popapolelo/tn_popapolelo-ud-test.conllu
-[Line 100 Sent 8 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'go na le' does not have the 'ExtPos' feature
-[Line 142 Sent 11 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'le fa e le' does not have the 'ExtPos' feature
-[Line 255 Sent 18 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'ka gore' does not have the 'ExtPos' feature
-Warnings: 3
+[Line 6 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 10 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'gagwe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 18 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'Ke' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 22 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 33 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 37 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49 Sent 4]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 69 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Warnings: 46
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.25) = 0.0192307692307692
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0) = 0
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.582352941176471) = 0.0447963800904977
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.702702702702703) = 0.0540540540540541
-(TOTAL score=0.1267136820078) * (availability=1) * (validity=1) = 0.1267136820078
-STARS = 0.5
-UD_Tswana-Popapolelo	0.1267136820078	0.5
+(weight=0.111111111111111) * (score{features}=0.25) = 0.0277777777777778
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0) = 0
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.582352941176471) = 0.0647058823529412
+(weight=0.111111111111111) * (score{udeprels}=0.702702702702703) = 0.0780780780780781
+(TOTAL score=0.178586429566822) * (availability=1) * (validity=1) = 0.178586429566822
+STARS = 1
+UD_Tswana-Popapolelo	0.178586429566822	1
