@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Tswana-Popapolelo:
-commit a10fbdbba384b6fa372a27aaf91de5a563dcb089
-Merge: c06d754 58be4a1
+commit 04c4c524a676070822a0dc3895765f2ba2f28d48
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:56:22 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tn_popapolelo'
 Language code (from CoNLL-U file name) = 'tn'
@@ -25,17 +25,20 @@ Universal relations: 26 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tn --max-err=10 UD_Tswana-Popapolelo/tn_popapolelo-ud-test.conllu
-[Line 6 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 10 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'gagwe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 18 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'Ke' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 22 Sent 2]: [L3 Warning pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 31 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 33 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 37 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 40 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 49 Sent 4]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 69 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 6 Sent 1]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 10 Sent 1]: [L3 WARNING pron-det-without-prontype] The word 'gagwe' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 18 Sent 2]: [L3 WARNING pron-det-without-prontype] The word 'Ke' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 22 Sent 2]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 33 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 37 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 49 Sent 4]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 69 Sent 6]: [L3 WARNING pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 108 Sent 8]: [L3 WARNING fixed-without-extpos] Fixed expression 'go na le' does not have the 'ExtPos' feature
+[Line 153 Sent 11]: [L3 WARNING fixed-without-extpos] Fixed expression 'le fa e le' does not have the 'ExtPos' feature
+[Line 273 Sent 18]: [L3 WARNING fixed-without-extpos] Fixed expression 'ka gore' does not have the 'ExtPos' feature
 Warnings: 46
 *** PASSED ***
 Validity: 1
