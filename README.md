@@ -22,8 +22,15 @@ Automatic annotation was done with the NCHLT processing tools (https://hlt.nwu.a
 
 # Changelog
 
-* 2026-11-01 v2.19
+* 2026-10-13 v2.0
+	* Added 30 sentences with CAR verbs
+	* Added festures Poss and PronType
+	* Added dep rel advcl-relcl
+	* Updated copulas and auxiliaries
+	* Added lemmas for 20 Cairo Cicling sentences
+* 2024-05-15 v1.0
   * Initial release in Universal Dependencies.
+
 
 # Contact
 
