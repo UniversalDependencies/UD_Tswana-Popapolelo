@@ -105,7 +105,7 @@
 3	me	me	PRON	PROPOSSPERS	Poss=Yes|PronType=Prs	1	nmod	_	end_char=291|start_char=289
 4	o	o	AUX	VCOP	_	5	cop	_	end_char=293|start_char=292
 5	botoka	toka	ADJ	ADJ14	NounClass=Bantu14	0	root	_	end_char=300|start_char=294
-6	go	go	PART	SCINDEF	_	10	cc	_	end_char=303|start_char=301
+6	go	go	PART	SCINDEF	ExtPos=SCONJ	10	cc	_	end_char=303|start_char=301
 7	na	na	VERB	VCOP	_	6	fixed	_	end_char=306|start_char=304
 8	le	le	PART	PART	_	6	fixed	_	end_char=309|start_char=307
 9	wa	wa	PART	POSSC01	NounClass=Bantu1	10	case	_	end_char=312|start_char=310
@@ -150,7 +150,7 @@
 # parallel_id = cairo/11
 1	Peter	Peter	PROPN	NPP	_	12	nsubj	_	end_char=428|start_char=423
 2	Smith	Smith	PROPN	NPP	_	1	flat	_	end_char=434|start_char=429
-3	le	le	PART	PART	_	7	cc	_	end_char=437|start_char=435
+3	le	le	PART	PART	ExtPos=CCONJ	7	cc	_	end_char=437|start_char=435
 4	fa	fa	SCONJ	CONJ	_	3	fixed	_	end_char=440|start_char=438
 5	e	e	PRON	SCNEUT	PronType=Ind	3	fixed	_	end_char=442|start_char=441
 6	le	le	VERB	VCOP	_	3	fixed	_	end_char=445|start_char=443
@@ -270,7 +270,7 @@
 4	kgona	kgona	VERB	V	_	0	root	_	end_char=795|start_char=790
 5	go	go	PART	SCINDEF	_	6	mark	_	end_char=798|start_char=796
 6	tshwarelela	tshwara	VERB	V	_	4	xcomp	_	end_char=810|start_char=799
-7	ka	ka	PART	PART	_	12	mark	_	end_char=813|start_char=811
+7	ka	ka	PART	PART	ExtPos=SCONJ	12	mark	_	end_char=813|start_char=811
 8	gore	gore	SCONJ	CONJ	_	7	fixed	_	end_char=818|start_char=814
 9	o	o	PRON	SC01	NounClass=Bantu1|PronType=Prs	12	expl	_	end_char=820|start_char=819
 10	ne	ne	AUX	VAUX	_	12	aux	_	end_char=823|start_char=821
