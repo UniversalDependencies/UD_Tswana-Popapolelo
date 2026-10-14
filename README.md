@@ -43,7 +43,7 @@ License: CC BY-SA 4.0
 Includes text: yes
 Parallel: cairo
 Genre: grammar-examples web
-Lemmas: manual native
+Lemmas: automatic
 UPOS: converted with corrections
 XPOS: automatic with corrections
 Features: manual native
