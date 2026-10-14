@@ -10,8 +10,8 @@ The first 20 sentences (sentence IDs starting with CC followed by a number) are 
 
 The other 30 sentences (sentence IDs starting with A (applicative verbs), C (causative verbs) or R (reciprocal verbs) followed by a number) are part of a study done for an MA thesis in Setswana carried out by Kevin Mavalela at the North-West University, South Africa, with the title "The influence of Setswana causative, applicative and reciprocal verbal extensions on argument structure". The focus of the study is on the applicative, causative and reciprocal verbal extensions to determine their influence on the argument structure in sentences. This includes determining the transitivity of the inflected verbs as well as investigating if the valency of these verbs are increased, decreased (reduced) or otherwise changed. The data has been extracted from the SetswanaWaC v2 corpus via SketchEngine (https://www.sketchengine.eu/).
 
-The entire treebank is labeled as test set due to its size. 
-If it is used for training in future research, the users should employ ten-fold 
+The entire treebank is labeled as test set due to its size.
+If it is used for training in future research, the users should employ ten-fold
 cross-validation.
 
 # Acknowledgments
@@ -22,13 +22,13 @@ Automatic annotation was done with the NCHLT processing tools (https://hlt.nwu.a
 
 # Changelog
 
-* 2026-10-13 v2.0
-	* Added 30 sentences with CAR verbs
-	* Added features Poss and PronType
-	* Added dep rel advcl-relcl
-	* Updated copulas and auxiliaries
-	* Added lemmas and Poss/PronType features for 20 Cairo Cicling sentences
-* 2024-05-15 v1.0
+* 2026-11-15 v2.19
+  * Added 30 sentences with CAR verbs
+  * Added features Poss and PronType
+  * Added dep rel advcl-relcl
+  * Updated copulas and auxiliaries
+  * Added lemmas and Poss/PronType features for 20 Cairo Cicling sentences
+* 2024-05-15 v2.14
   * Initial release in Universal Dependencies.
 
 
@@ -41,7 +41,8 @@ Tanja Gaustad (Tanja.Gaustad@nwu.ac.za)
 Data available since: UD v2.14
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples; web
+Parallel: cairo
+Genre: grammar-examples web
 Lemmas: not available
 UPOS: converted with corrections
 XPOS: automatic with corrections
