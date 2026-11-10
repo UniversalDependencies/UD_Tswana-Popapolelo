@@ -1,54 +1,39 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Tswana-Popapolelo:
-commit 04c4c524a676070822a0dc3895765f2ba2f28d48
+commit d712ffeba54f492bf1fa049f2d38608b69fa5ecf
+Merge: 7ffa511 5587e85
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 20:56:22 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'tn_popapolelo'
 Language code (from CoNLL-U file name) = 'tn'
 Found the following data files: tn_popapolelo-ud-test.conllu
-Size: counted 214 of 214 words (nodes).
+Size: counted 580 of 580 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Did not find more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Did not find at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
+Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 11 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 81 out of 214 total words have one or more features.
-Features: source of annotation (from README) factor is 0.5.
-Universal relations: 26 out of 37 found in the corpus.
+Features: 274 out of 580 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Genres: found 1 out of 18 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang tn --max-err=10 UD_Tswana-Popapolelo/tn_popapolelo-ud-test.conllu
-[Line 6 Sent 1]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 10 Sent 1]: [L3 WARNING pron-det-without-prontype] The word 'gagwe' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 18 Sent 2]: [L3 WARNING pron-det-without-prontype] The word 'Ke' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 22 Sent 2]: [L3 WARNING pron-det-without-prontype] The word 'e' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 31 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 33 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'a' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 37 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 40 Sent 3]: [L3 WARNING pron-det-without-prontype] The word 'go' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 49 Sent 4]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 69 Sent 6]: [L3 WARNING pron-det-without-prontype] The word 'O' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further messages regarding WARNING/MORPHO
-[Line 108 Sent 8]: [L3 WARNING fixed-without-extpos] Fixed expression 'go na le' does not have the 'ExtPos' feature
-[Line 153 Sent 11]: [L3 WARNING fixed-without-extpos] Fixed expression 'le fa e le' does not have the 'ExtPos' feature
-[Line 273 Sent 18]: [L3 WARNING fixed-without-extpos] Fixed expression 'ka gore' does not have the 'ExtPos' feature
-Warnings: 46
 *** PASSED ***
 Validity: 1
-(weight=0.111111111111111) * (score{features}=0.25) = 0.0277777777777778
-(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
-(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=0.4) = 0.0444444444444444
 (weight=0.37037037037037) * (score{size}=0) = 0
 (weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
 (weight=0.111111111111111) * (score{tags}=0.582352941176471) = 0.0647058823529412
-(weight=0.111111111111111) * (score{udeprels}=0.702702702702703) = 0.0780780780780781
-(TOTAL score=0.178586429566822) * (availability=1) * (validity=1) = 0.178586429566822
-STARS = 1
-UD_Tswana-Popapolelo	0.178586429566822	1
+(weight=0.111111111111111) * (score{udeprels}=0.756756756756757) = 0.0840840840840841
+(TOTAL score=0.261876386190112) * (availability=1) * (validity=1) = 0.261876386190112
+STARS = 1.5
+UD_Tswana-Popapolelo	0.261876386190112	1.5
