@@ -5,72 +5,89 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>20</sentences><tokens>214</tokens><words>214</words><fused>0</fused></total>
+    <total><sentences>50</sentences><tokens>580</tokens><words>580</words><fused>0</fused></total>
     <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>20</sentences><tokens>214</tokens><words>214</words><fused>0</fused></test>
+    <test><sentences>50</sentences><tokens>580</tokens><words>580</words><fused>0</fused></test>
   </size>
-  <lemmas unique="0" /><!--  -->
-  <forms unique="100" /><!-- ., o, a, go, ka, le, ne, ke, Peter, ba, e, gore, mme, wa, ? -->
+  <lemmas unique="212" /><!-- a, ., o, ba, go, ke, le, ne, ,, ka, ", e, tho, ga, mme -->
+  <forms unique="232" /><!-- a, ., o, ba, go, ke, le, ,, ne, ka, ", e, ga, mme, fa -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="11">
-    <tag name="ADJ">4</tag><!-- _ -->
-    <tag name="ADV">12</tag><!-- _ -->
-    <tag name="AUX">12</tag><!-- _ -->
-    <tag name="CCONJ">8</tag><!-- _ -->
-    <tag name="NOUN">26</tag><!-- _ -->
-    <tag name="PART">32</tag><!-- _ -->
-    <tag name="PRON">43</tag><!-- _ -->
-    <tag name="PROPN">15</tag><!-- _ -->
-    <tag name="PUNCT">23</tag><!-- _ -->
-    <tag name="SCONJ">5</tag><!-- _ -->
-    <tag name="VERB">34</tag><!-- _ -->
+    <tag name="ADJ">6</tag><!-- ngwe, kgolo, nnye, toka -->
+    <tag name="ADV">18</tag><!-- ga, a, fela, se, abane, eng, kae, leng, mang, penne -->
+    <tag name="AUX">36</tag><!-- ne, ke, le, be, bo, bolo, ise, nna, o, se -->
+    <tag name="CCONJ">12</tag><!-- mme, le, kgotsa, or -->
+    <tag name="NOUN">98</tag><!-- tho, kgarebe, jo, metsi, monna, atla, kau, koloi, kwalo, na -->
+    <tag name="PART">70</tag><!-- ka, go, le, wa, a, ke, kwa, mo, ga, la -->
+    <tag name="PRON">140</tag><!-- o, a, ba, go, ke, e, di, le, bo, botlhe -->
+    <tag name="PROPN">26</tag><!-- Peter, Mary, Brown, Dimpho, Fora, Hotel, Iguazu, Jane, Kgomo, Mmutle -->
+    <tag name="PUNCT">67</tag><!-- ., ,, ", ;, ?, !, ..., _ -->
+    <tag name="SCONJ">11</tag><!-- gore, fa -->
+    <tag name="VERB">96</tag><!-- na, tla, bolaya, lela, re, batla, diega, kwala, akanya, apaya -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="10">
-    <feat name="NounClass" value="Bantu1" upos="NOUN,PART,PRON">31</feat><!-- o, a, wa, Moagisani, Mosetsana, Rre, monna, morwarraagwe -->
-    <feat name="NounClass" value="Bantu14" upos="ADJ,NOUN">2</feat><!-- bohibidu, botoka -->
-    <feat name="NounClass" value="Bantu15" upos="PRON">2</feat><!-- go -->
-    <feat name="NounClass" value="Bantu17" upos="PART">1</feat><!-- ga -->
-    <feat name="NounClass" value="Bantu2" upos="PRON">5</feat><!-- ba -->
-    <feat name="NounClass" value="Bantu3" upos="NOUN,PART">3</feat><!-- moriri, mošate, wa -->
-    <feat name="NounClass" value="Bantu5" upos="ADJ,NOUN,PRON">12</feat><!-- le, lekwalo, lebaka, lebelo, legora, lengwe, leo, letlhabaphefo, letsatsi, lê -->
-    <feat name="NounClass" value="Bantu7" upos="NOUN">1</feat><!-- selefera -->
-    <feat name="NounClass" value="Bantu9" upos="ADJ,NOUN,PART,PRON">18</feat><!-- e, koloi, baesekele, boronse, epe, gauta, kakanyo, kgolo, naga, nnye -->
-    <feat name="Polarity" value="Neg" upos="ADV">6</feat><!-- ga, a, se -->
+  <feats unique="24">
+    <feat name="ExtPos" value="CCONJ" upos="PART">1</feat><!-- le -->
+    <feat name="ExtPos" value="SCONJ" upos="PART">2</feat><!-- go, ka -->
+    <feat name="NounClass" value="Bantu1" upos="NOUN,PART,PRON">74</feat><!-- a, o, motho, wa, monna, rre, Kgwale, Mme, Moagisani, Mosadi -->
+    <feat name="NounClass" value="Bantu10" upos="NOUN,PART,PRON">9</feat><!-- di, tsa, dibotlolo, dinama, dituelo -->
+    <feat name="NounClass" value="Bantu11" upos="NOUN,PRON">2</feat><!-- lo, lorato -->
+    <feat name="NounClass" value="Bantu14" upos="ADJ,NOUN,PRON">12</feat><!-- bo, botlhano, Boitumelo, Botsotsi, bodiba, bohibidu, bongaka, botlhofo, botoka, jwa -->
+    <feat name="NounClass" value="Bantu15" upos="PRON">8</feat><!-- go -->
+    <feat name="NounClass" value="Bantu17" upos="NOUN,PART">3</feat><!-- ga, godimo -->
+    <feat name="NounClass" value="Bantu18" upos="NOUN">1</feat><!-- morago -->
+    <feat name="NounClass" value="Bantu2" upos="NOUN,PART,PRON">34</feat><!-- ba, batho, bana, Banyalani -->
+    <feat name="NounClass" value="Bantu20" upos="NOUN,PART">2</feat><!-- ga, ntle -->
+    <feat name="NounClass" value="Bantu3" upos="NOUN,PART">7</feat><!-- wa, molelo, molodi, moriri, mosese, mošate -->
+    <feat name="NounClass" value="Bantu4" upos="NOUN,PRON">2</feat><!-- e, metsotso -->
+    <feat name="NounClass" value="Bantu5" upos="ADJ,NOUN,PART,PRON">21</feat><!-- la, le, lekwalo, lebaka, lebelo, legora, lekgarebe, lengwe, leo, lephata -->
+    <feat name="NounClass" value="Bantu6" upos="NOUN,PRON">15</feat><!-- a, makgarebe, metsi, makau, madi, maikutlo, mapodisi, meno -->
+    <feat name="NounClass" value="Bantu7" upos="NOUN,PRON">3</feat><!-- se, selefera, selekanyo -->
+    <feat name="NounClass" value="Bantu8" upos="NOUN">5</feat><!-- dijo, diatla -->
+    <feat name="NounClass" value="Bantu9" upos="ADJ,NOUN,PART,PRON">32</feat><!-- e, ya, koloi, tsele, baesekele, boronse, eo, epe, gauta, kakanyo -->
+    <feat name="Polarity" value="Neg" upos="ADV">8</feat><!-- ga, a, se -->
+    <feat name="Poss" value="Yes" upos="PRON">7</feat><!-- gago, gagwe, me, bone -->
+    <feat name="PronType" value="Dem" upos="PRON">3</feat><!-- eo, leo, lê -->
+    <feat name="PronType" value="Ind" upos="PRON">10</feat><!-- go, e -->
+    <feat name="PronType" value="Prs" upos="PRON">124</feat><!-- o, a, ba, ke, e, di, le, bo, ena, gago -->
+    <feat name="PronType" value="Tot" upos="PRON">3</feat><!-- botlhe, epe -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="30">
-    <dep name="advcl">1</dep>
-    <dep name="advmod">10</dep>
+  <deps unique="33">
+    <dep name="acl">3</dep>
+    <dep name="advcl">11</dep>
+    <dep name="advcl:relcl">1</dep>
+    <dep name="advmod">16</dep>
     <dep name="amod">1</dep>
-    <dep name="appos">1</dep>
-    <dep name="aux">8</dep>
-    <dep name="case">16</dep>
-    <dep name="cc">10</dep>
-    <dep name="ccomp">5</dep>
-    <dep name="compound">6</dep>
-    <dep name="conj">10</dep>
-    <dep name="cop">3</dep>
-    <dep name="discourse">2</dep>
-    <dep name="expl">16</dep>
+    <dep name="appos">2</dep>
+    <dep name="aux">23</dep>
+    <dep name="case">46</dep>
+    <dep name="cc">14</dep>
+    <dep name="ccomp">12</dep>
+    <dep name="compound">18</dep>
+    <dep name="conj">14</dep>
+    <dep name="cop">11</dep>
+    <dep name="discourse">3</dep>
+    <dep name="expl">48</dep>
     <dep name="fixed">6</dep>
     <dep name="flat">2</dep>
-    <dep name="iobj">1</dep>
-    <dep name="mark">11</dep>
-    <dep name="nmod">10</dep>
-    <dep name="nsubj">25</dep>
+    <dep name="iobj">9</dep>
+    <dep name="mark">24</dep>
+    <dep name="nmod">25</dep>
+    <dep name="nsubj">82</dep>
     <dep name="nsubj:pass">2</dep>
-    <dep name="obj">8</dep>
-    <dep name="obl">4</dep>
-    <dep name="obl:agent">1</dep>
-    <dep name="obl:lmod">1</dep>
-    <dep name="obl:tmod">2</dep>
+    <dep name="obj">41</dep>
+    <dep name="obl">20</dep>
+    <dep name="obl:agent">2</dep>
+    <dep name="obl:lmod">2</dep>
+    <dep name="obl:tmod">3</dep>
     <dep name="orphan">3</dep>
-    <dep name="punct">23</dep>
-    <dep name="root">20</dep>
+    <dep name="parataxis">10</dep>
+    <dep name="punct">67</dep>
+    <dep name="root">50</dep>
     <dep name="vocative">1</dep>
-    <dep name="xcomp">5</dep>
+    <dep name="xcomp">8</dep>
   </deps>
 </treebank>
